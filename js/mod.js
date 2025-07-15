@@ -2,7 +2,7 @@ let modInfo = {
 	name: "The Constellation Tree",
 	author: "snakeandre",
 	pointsName: "stars",
-	modFiles: ["layers.js", "tree.js"],
+	modFiles: ["tree.js", "layers/aquarius.js", "layers/aries.js", "layers/cancer.js", "layers/capricorn.js", "layers/gemini.js", "layers/leo.js", "layers/libra.js", "layers/pisces.js", "layers/sagittarius.js", "layers/scorpio.js", "layers/taurus.js", "layers/virgo.js"],
 
 	discordName: "",
 	discordLink: "",
@@ -12,8 +12,8 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.1",
+	name: "The Beginning of All",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
@@ -41,7 +41,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(1)
+	let gain = new Decimal(1);
 	return gain
 }
 
