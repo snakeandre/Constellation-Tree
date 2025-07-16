@@ -24,7 +24,7 @@ addLayer("Aqr", {
     },
     row: 2, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
-        { key: "a", description: "a: Reset for Aquarius", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
+        { key: "A", description: "a: Reset for Aquarius", onPress() { if (canReset(this.layer)) doReset(this.layer) } },
     ],
     layerShown() { return false }
 })
